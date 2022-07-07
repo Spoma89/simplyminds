@@ -1,0 +1,109 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(imagenes/uu.png);
+	background-position: cover;
+	background-repeat:no-repeat; 
+}
+
+img.logo{ 
+	width: 120px;
+	height: 120px;
+	border-radius: 70px;
+	padding: 10px;
+
+}
+img.logo1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+}
+img.inicio{display: grid;
+	align-items:center;
+	width: 700px;
+	height: 700px;
+	border-radius: 350px;
+
+}
+
+li a:hover{
+	color:#f57f17 ;
+}
+.newspaper {
+	margin-left: 250px;
+	margin-right: 250px;
+  column-count: 1;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  font-size: 15px;
+  color: black;
+  font-style: bold;
+
+}
+div.card{
+	margin:10px;
+	margin-right: 15px;
+	border-radius: 20px;
+	justify-content: center;
+}
+#sec{
+	padding: 5px;
+	margin-top: 5em;
+	margin-left: 3em;
+
+}
+div.col{
+	margin-top: 150px;
+	padding: 3px;
+	margin-left: 10px;
+
+	column-count: 3;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.form-register{
+	width: 600px;
+	height: 450px;
+	background-color:#01579b    ;
+	border-color: #e1bee7;
+	padding: 30px;
+	margin:auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	border-radius: 24px;
+	
+	box-shadow: 15px black
+
+}
+.form-register input{
+	color: #f57f17;
+}
+.form-register h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: #f57f17 ;
+}
+p{
+	color: #f57f17 ;
+}
+.controls{
+	width: 100%;
+	background-color: blue;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 1px solid black;
+	font-size: 18px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
